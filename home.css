@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    font-family: "Helvetica Neue", "Netflix Sans", sans-serif;
+    color: #FFFFFF;
+}
+
+header {
+    height: 100px;
+    background-color: #000000;
+    color: #E50914;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+#logo-img {
+    height: 230px;
+    width: auto;
+}
+
+#logo-img:hover {
+    transform: scale(0.8);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #E50914;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+ul li {
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+
+table {
+    width: 100%;
+    margin: 30px auto;
+    border-spacing: 20px;
+}
+
+th {
+    text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+td {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+td:hover {
+    transform: scale(1.05);
+    background-color: #333333;
+}
+
+td p {
+    margin: 5px 0;
+}
+
+.titulo-filme {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+a {
+    color: #E50914;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
